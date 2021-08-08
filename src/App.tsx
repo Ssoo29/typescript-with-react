@@ -21,7 +21,6 @@ class App extends Component<{}, IState> {
           <Input value={name} onChange={this.onChange}/>
         </Form>
         <Number count={counter}></Number>
-        {counter}
         <button onClick={this.add}>Add</button>
       </div>
     );
